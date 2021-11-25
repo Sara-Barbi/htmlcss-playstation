@@ -23,3 +23,34 @@
     position: fixed;
     top: 0;
 }
+.ms_lista{
+    list-style: none;
+}
+.ms_testo{
+    color: rgb(78, 78, 78);
+}
+.ms_round{
+    border-radius: 50px;
+    background: rgb(61, 60, 60);
+    color: honeydew;
+    font-weight: bold;
+}
+.ms_vbig{
+    height: 600px;
+    background-image: url(./img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+._W{
+   width: 200px;
+   top: 50%;
+   left: 20px;
+}
+._W img{
+    width: 100%;
+}
+
+
+
+
+
