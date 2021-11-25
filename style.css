@@ -3,3 +3,23 @@
     padding:0%;
     box-sizing: border-box;
 }
+.ms_bac{
+    background-color: black;
+}
+.ms_alto{
+    min-height: 40px;
+}
+.ms_largo{
+    width: 80px;
+    position: absolute;
+    right: 20px;
+    top: 8px;
+}
+.ms_logo{
+    width: 100%;
+   
+}
+.ms_fix{
+    position: fixed;
+    top: 0;
+}
