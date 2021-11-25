@@ -3,6 +3,9 @@
     padding:0%;
     box-sizing: border-box;
 }
+.lo0auto{
+    margin: 0 auto;
+}
 .ms_bac{
     background-color: black;
 }
@@ -15,7 +18,7 @@
     right: 20px;
     top: 8px;
 }
-.ms_logo{
+img{
     width: 100%;
    
 }
@@ -41,6 +44,12 @@
     background-size: cover;
     background-position: center;
 }
+.ms_vbig0{
+    height: 600px;
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-size:cover;
+    background-position: center;
+}
 ._W{
    width: 200px;
 }
@@ -52,6 +61,9 @@
     display: flex;
     align-items: center;
 }
+.ms_mt{
+    margin-top: 40px;
+}
 ._ms{
     color: white;
 
@@ -61,19 +73,49 @@
 }
 .ms_hov{
     padding: 1px;
+    border-radius: 20px;
+    width: 120px;
+    height: 45px;
 }
 
 .ms_hov:hover .ms_effect{
     display: block;
     border: 3px solid black;
-    border-radius: 3px;
-    transition: all 1s ease 0.3s;
+    border-radius: 20px;
+}
+.ms_hov1{
+    padding: 1px;
+    border-radius: 20px;
+    width: 120px;
+    color: white;
+    height: 45px;
+    background: rgb(86, 65, 226);
+    border-color: rgb(86, 65, 226);
+}
+
+.ms_hov1:hover .ms_effect{
+    display: block;
+    background: rgb(86, 65, 226);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
     
 }
 .ms_margi{
     margin-top: 30px;
 }
-
+.rounded_ms{
+    border-radius: 25px;
+}
+.ms_trasform{
+    font-size: 11px;
+    color: rgb(64, 117, 216);
+}
+.ms_mymar{
+    margin-top: 60px;
+}
+.ms_backend{
+    background: rgb(42, 42, 42);
+}
 
 
 
