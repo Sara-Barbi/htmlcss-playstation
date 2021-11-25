@@ -95,6 +95,7 @@ img{
 
 .ms_hov1:hover .ms_effect{
     display: block;
+    color: white;
     background: rgb(86, 65, 226);
     border: 3px solid rgb(255, 255, 255);
     border-radius: 20px;
