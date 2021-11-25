@@ -43,12 +43,39 @@
 }
 ._W{
    width: 200px;
-   top: 50%;
-   left: 20px;
 }
-._W img{
+.game{
     width: 100%;
 }
+.ms_H{
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+._ms{
+    color: white;
+
+}
+.ms_effect{
+    padding: 5px;
+}
+.ms_hov{
+    padding: 1px;
+}
+
+.ms_hov:hover .ms_effect{
+    display: block;
+    border: 3px solid black;
+    border-radius: 3px;
+    transition: all 1s ease 0.3s;
+    
+}
+.ms_margi{
+    margin-top: 30px;
+}
+
+
+
 
 
 
