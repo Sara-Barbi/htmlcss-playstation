@@ -101,8 +101,43 @@ img{
     border-radius: 20px;
     
 }
+.ms_hov2{
+    padding: 1px;
+    border-radius: 20px;
+    width: 220px;
+    color: rgb(86, 65, 226);
+    height: 45px;
+    background: rgba(255, 255, 255, 0.489);
+}
+
+.ms_hov2:hover{
+    display: block;
+    width: 220px;
+    color: rgb(86, 65, 226);
+    background:rgba(255, 255, 255, 0.489);
+    border: 3px solid rgba(255, 255, 255, 0.34);
+    border-radius: 20px;   
+}
+.ms_hov3{
+    padding: 1px;
+    border-radius: 20px;
+    width: 220px;
+    color: rgb(0, 0, 0);
+    height: 45px;
+    background: rgb(255, 255, 255);
+}
+
+.ms_hov3:hover{
+    display: block;
+    width: 220px;
+    color: rgb(7, 7, 7);
+    background:rgb(255, 255, 255);
+    border: 3px solid rgba(255, 255, 255, 0.34);
+    border-radius: 20px;   
+}
 .ms_margi{
     margin-top: 30px;
+    margin-bottom: 100px;
 }
 .rounded_ms{
     border-radius: 25px;
@@ -130,10 +165,19 @@ img{
 .ms_padre:hover .ms_change{
     display: inline-block;
 }
-
-
-
-
-
+.ms_sfondo{
+    background-color: rgb(148, 149, 152);
+}
+.ms__alto{
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+}
+.ms_imagineplus{
+    width: 270px;
+}
+.ms_sfondo12{
+    background-color: rgb(16, 31, 76);
+}
 
 
