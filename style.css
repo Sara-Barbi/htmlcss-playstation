@@ -117,6 +117,19 @@ img{
 .ms_backend{
     background: rgb(42, 42, 42);
 }
+.ms_change{
+    font-size: 11px;
+    display: none;
+}
+.ms_down{
+    font-size: 11px;
+}
+.ms_padre:hover .ms_down{
+    display: none;
+}
+.ms_padre:hover .ms_change{
+    display: inline-block;
+}
 
 
 
