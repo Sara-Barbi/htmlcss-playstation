@@ -179,5 +179,15 @@ img{
 .ms_sfondo12{
     background-color: rgb(16, 31, 76);
 }
-
-
+.my_width{
+   width: 15px; 
+}
+.ps_global{
+    width: 80px;
+}
+.anoth_width{
+    width: 100px;
+}
+.dropdown-item img{
+    width: 100px;
+}
