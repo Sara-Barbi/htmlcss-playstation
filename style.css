@@ -77,6 +77,7 @@ img{
 }
 .ms_effect{
     padding: 5px;
+    transition-duration: .05s;
 }
 .ms_hov{
     padding: 1px;
@@ -149,12 +150,12 @@ img{
     background: rgb(255, 255, 255);
 }
 
-.ms_hov3:hover{
+.ms_hov3:hover .ms_effect{
     display: block;
-    width: 220px;
+    width: 215px;
     color: rgb(7, 7, 7);
     background:rgb(255, 255, 255);
-    border: 3px solid rgba(255, 255, 255, 0.34);
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 20px;   
 }
 .ms_margi{
