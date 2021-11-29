@@ -94,11 +94,15 @@ img{
     padding: 1px;
     border-radius: 20px;
     height: 45px;
+    color: white;
+    background-color: rgb(76, 75, 75);
 }
 
 .ms_hovfirst:hover .ms_effect{
     display: block;
-    border: 3px solid black;
+    color: white;
+    background-color: rgb(98, 97, 97);
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 20px;
 }
 .ms_hov1{
@@ -159,6 +163,11 @@ img{
 }
 .rounded_ms{
     border-radius: 25px;
+}
+.rounded_ms_active{
+    border-radius: 25px;
+    padding: 5px;
+    border: 2px solid rgb(16, 175, 228);
 }
 .ms_trasform{
     font-size: 11px;
@@ -239,4 +248,7 @@ img{
 .bordu{
     border-left: none;
     border-right: none;
+}
+.lover:hover{
+    margin-top:5px;
 }
