@@ -191,3 +191,14 @@ img{
 .dropdown-item img{
     width: 100px;
 }
+.bi_-circle{
+    font-size: 5px;
+    line-height: 32px;
+    vertical-align: middle;
+}
+.ms_father:hover{
+    box-shadow: 4px rgba(128, 128, 128, 0.476);
+
+
+
+}
