@@ -198,7 +198,13 @@ img{
 }
 .ms_father:hover{
     box-shadow: 4px rgba(128, 128, 128, 0.476);
-
-
-
+}
+._ms_ms{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.mt_mystyle{
+    margin-top: 100px;
 }
