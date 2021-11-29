@@ -28,6 +28,7 @@ img{
 }
 .ms_lista{
     list-style: none;
+    padding: 0;
 }
 .ms_testo{
     color: rgb(78, 78, 78);
@@ -196,8 +197,11 @@ img{
     line-height: 32px;
     vertical-align: middle;
 }
-.ms_father:hover{
-    box-shadow: 4px rgba(128, 128, 128, 0.476);
+.ms_father{
+    padding: 4px;
+}
+.ms_father:hover .ms_effetto-shadow{
+    box-shadow: 4px rgba(235, 20, 20, 0.476);
 }
 ._ms_ms{
     position: fixed;
@@ -205,6 +209,15 @@ img{
     top: 0;
     left: 0;
 }
-.mt_mystyle{
-    margin-top: 100px;
+
+.drop_me{
+    color: black;
+    text-decoration: none;
+}
+.drop_me:hover .ms_father{
+    box-shadow: 0 0 5px grey;
+}
+.bordu{
+    border-left: none;
+    border-right: none;
 }
