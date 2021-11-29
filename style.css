@@ -252,3 +252,16 @@ img{
 .lover:hover{
     margin-top:5px;
 }
+.ms_border_fix{
+    border-bottom: solid 3px rgb(89, 89, 235);
+}
+.hov_hov{
+    opacity: 0.5;
+    transition-duration: 2s;
+}
+.hov_hov:hover{
+    opacity: 1;
+}
+.ms_un_po_margin{
+    height: 100px;
+}
